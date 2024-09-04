@@ -2,7 +2,7 @@
 
 ## Overview
 
-This **Speaker Identification System** identifies speakers by analyzing their voice embeddings. It registers speakers by recording their voices, computing embeddings with `pyannote/embedding`, and saving them in a YAML file. For identification, it compares new recordings against saved embeddings using cosine similarity.
+This **Speaker Identification System** identifies speakers by analyzing their voice embeddings. It registers speakers by recording their voices, computing embeddings with [`pyannote/embedding`](https://huggingface.co/pyannote/embedding), and saving them in a YAML file. For identification, it compares new recordings against saved embeddings using cosine similarity.
 
 ## Features
 
