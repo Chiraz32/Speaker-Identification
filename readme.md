@@ -48,9 +48,9 @@ Use the pre-trained `pyannote/embedding` model from Hugging Face.
 
 5. **Start the Main Application**
      
-       ```bash
+    ```bash
    python main/main.py
- ```
+   ```
 
 ## Docker
 
