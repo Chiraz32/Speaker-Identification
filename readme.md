@@ -1,7 +1,3 @@
-Here’s the revised README with the Docker information included:
-
----
-
 # Speaker Identification System
 
 ## Overview
