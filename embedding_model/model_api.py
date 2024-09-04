@@ -11,7 +11,7 @@ app = FastAPI()
 # Load the pre-trained model
 # model = Model.from_pretrained("pytorch_model.bin")
 model = Model.from_pretrained("pyannote/embedding", 
-                              use_auth_token="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")
+                              use_auth_token="AUTH_Token")
 # Perform inference to get embeddings
 inference = Inference(model, window="whole")
 
