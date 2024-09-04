@@ -39,7 +39,14 @@ Use the pre-trained `pyannote/embedding` model from Hugging Face.
 3. **Configure the YAML File**
 
    - Ensure `speakers_embeddings.yaml` is present in the root directory.
-
+4- **Start the Model**
+       ```bash
+   python embedding_model/ymodel_api.py
+   ```
+5- **Start the Main Application**
+       ```bash
+   python main/main.py
+   ```
 ## Docker
 
 The project includes Docker files to build separate containers for both models and main code:
