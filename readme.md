@@ -53,7 +53,7 @@ To build and run the Docker containers:
 docker build -t embedding-model -f embedding_model/Dockerfile .
 docker build -t main-app -f main/Dockerfile .
 docker run -p 8000:8000 embedding-model
-docker run -p 5080:8080 main-app
+docker run -p 5000:8080 main-app
 ```
 
 ## Usage
